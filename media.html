@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media</title>
+  </head>
+  <body>
+    <h2>Powerful message about myself using Media</h2>
+    <section>
+      <p>
+         My name is Kawthar, A Medical Laboratory Science Student. Here is a
+          picture of me in the lab.
+      </p>
+      <img
+        width="250px"
+        height="250px"
+        src="./Assets/image.jpeg"
+        alt="Kawthar in the laboratory"
+      />
+    </section>
+    <section>
+      <p>A video of me with a friend.</p>
+      <video height="200px" width="300px" src="./Assets/video.MP4" autoplay></video>
+    </section>
+    <section>
+      <p><em>My favorite audio.</em></p>
+      <audio src="./Assets/Fatiha.mp3" controls  loop></audio>
+    </section>
+    <section id="picture">
+      <p>A picture that is responsive to different device.</p>
+      <source srcset="./Assets/car.jpg" media="(min-width: 600px)" />
+      <source  srcset="./Assets/car.jpg" media="(min-width: 900px)">
+      <source srcset="./Assets/car.jpg" media="(min-width: 300px)" />
+      <img src="./Assets/car.jpg" alt="Car">
+    </section>
+  </body>
+</html>
